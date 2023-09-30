@@ -2,14 +2,14 @@
 seeds = false
 skip-lint = false
 
-[programs.localnet]
-taskaru_solang = "F1ipperKF9EfD821ZbbYjS319LXYiBmjhzkkf5a26rC"
+[programs.devnet]
+taskaru_solang = "8cTeqUjgcLhLhD6nzVoioJ8sbDnitsz86TtFSNjyrVnr"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/home/purrnama/.config/solana/id.json"
 
 [scripts]
